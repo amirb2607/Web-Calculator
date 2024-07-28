@@ -30,7 +30,7 @@ textarea {
     border: none;
 }
 
-.calculator-grid  button:nth-child(n+18) {
+.calculator-grid button:nth-child(n+18) {
     background-color: tomato; 
 }
 
