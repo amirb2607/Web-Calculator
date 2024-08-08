@@ -11,7 +11,6 @@ function calculate(expression) {
     }
 }
 
-
 function operation(buttonValue) {
     if (buttonValue === 'C') {
         input.value = '';

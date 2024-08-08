@@ -4,13 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Web Calculator</title>
+    <script>
+      window.console = window.console || function(t) {};
+    </script>
     <link rel="stylesheet" href="styles.css">
-    <script src="/script.js"></script>
  </head>
  <body>
     <div class = "grid-container">
         <div class = "calculator-grid">
-          <textarea type="text" id = "inputtext" placeholder="0"></textarea>
+          <textarea type="text" id ="inputtext" placeholder="0"></textarea>
             <button>C</button>
             <button>DEL</button>
             <button></button>
@@ -33,5 +35,6 @@
             <button>=</button>
         </div>
     </div>
+    <script src="script.js"></script>
  </body>
  </html>
